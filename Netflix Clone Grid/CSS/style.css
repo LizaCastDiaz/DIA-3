@@ -47,27 +47,68 @@ h1{
 }
 
 .header-logo img {
-    background-size: contain;
-    width: 150px;
+    background-size: contain;  
+    width: 200px;
+}
+.header-izquierda{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .header-menu-izq ul {
     width: 40vw;
     display: flex;
     justify-content: space-between;
-    
+    padding: 0;
     
 }
 
-.header-menu-der ul{
-    width: 40vw;
+.header-menu-der{
+    align-items: center;
     display: flex;
-    justify-content: flex-end;
-    padding-left: 10px;
-    padding-right: 10px;
-} 
+    justify-content: flex-start;
+    margin-left: 15%;
+    
+}
 
-.header-menu-der ul li {
-    margin: 10px;
+
+
+
+.menu-der-icon {
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    
+}
+
+.menu-der-icon__search{
+   
+    background-image: url(../Images/lupa-blanca.png);
+    
+    
+}
+.menu-der-icon__gift{
+    background-image: url(../Images/giftwhite.png);
+    
+}
+.menu-der-icon__bell{
+    background-image: url(../Images/campana-blanca.png);
+    
+}
+.menu-der-icon__pic{
+    background-image: url(../Images/avatar-netflix.png);
+    width: 35px;
+    height: 35px;
+    
+}
+.menu-der-icon__arrow{
+    background-image: url(../Images/flecha-blanca.png);
+    width: 10px;
+    
 }
 
 
@@ -99,6 +140,7 @@ h1{
     background-image: url(../Images/Series/breakin.webp);
     background-size: contain;
     background-repeat: no-repeat;
+
 
     grid-column: 1 / 2;
 }
@@ -182,6 +224,22 @@ h1{
 
 
 /* ******** FOOTER ******** */
+
+.footer-container{
+    grid-column: 1 / 7;
+    align-content: center;
+    align-items: center;
+
+}
+
+.footer-container ul {
+    height: 10vh;
+    grid-row: 1 /7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 
 
 
