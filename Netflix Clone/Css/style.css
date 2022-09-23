@@ -36,7 +36,6 @@ li {
 
 /* ******** HEADER-NAV ******** */
 
-
 .header {
     height: 13vh;
     background-color: black;
@@ -70,9 +69,29 @@ li {
 
 
 .main {
-height: 77vh;
-background-color: lightgrey;
+height: 100%;
+background-color: lightgrey
 }
+
+.main-documentales-container{
+    border: solid black 1px;
+    width: 100vw;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.main-volver-container{
+    border: solid black 1px;
+    height: 30vh;
+
+}
+.main-series-containe{
+    border: solid black 1px;
+    height: 30vh;
+}
+
+
 
 
 
@@ -88,7 +107,7 @@ background-color: lightgrey;
 }
 
 .footer ul {
-    color: white;
+   color: white;
    padding-top: 5%;
 }
 

@@ -1,0 +1,187 @@
+*{
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+     }
+
+/* ******** GENERALES ******** */
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 20px;
+    font-family:'Open Sans', sans-serif ;
+    margin-left: 10px;
+}
+
+.container {
+    height: 100vh;
+    margin-left:10px ;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 0.5fr 3fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+
+}
+
+
+/* ******** HEADER-NAV ******** */
+#header {
+    
+    background-color: black;
+    grid-column: 1 / 7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-logo{
+    width: 20vw;  
+    padding-left: 10px ;
+}
+
+.header-logo img {
+    background-size: contain;
+    width: 150px;
+}
+.header-menu-izq ul {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.header-menu-der ul{
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.header-menu-der ul li {
+    margin: 10px;
+}
+
+
+/* ******** MAIN ******** */
+.main-container {
+    height: 100vh;
+    background-color: black;
+    grid-column: 1 / 7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 2fr 1fr;
+    margin-top: 2%;
+   
+}
+
+/* ******** documentales ******** */
+.titulo-documentales {
+    background-color: black;
+    grid-column: 1 / 7;
+}
+.poster-docu{
+    background-color: black;
+    grid-column: 1 / 7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#a {
+    background-image: url(../Images/Series/breakin.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    grid-column: 1 / 2;
+}
+#b {
+    background-image: url(../Images/Series/ino.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 2 / 3;
+}
+#c {
+    background-image: url(../Images/Series/ricky.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 3 / 4;
+}
+#d {
+    background-image: url(../Images/Series/sex.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 4 / 5;
+}
+#e {
+    background-image: url(../Images/Series/viki.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 5 / 6;
+}
+
+
+/* ******** Peliculas ******** */
+.box {
+    margin-left: 10px;
+}
+.titulo-pelis{
+    background-color: black;
+    grid-column: 1 / 7;
+    padding-top: 30px;
+    
+
+
+}
+.poster-pelis{
+    background-color: black;
+    grid-column: 1 / 7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#f {
+    background-image: url(../Images/pelis/el.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 1 / 2;
+
+}
+#g {
+    background-image: url(../Images/pelis/iji.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 2 / 3;
+}
+#h {
+    background-image: url(../Images/pelis/ijij.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 3 / 4;
+}
+#i {
+    background-image: url(../Images/pelis/oij.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 4 / 5;
+}
+#j {
+    background-image: url(../Images/pelis/oko.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 5 / 6;
+}
+
+
+
+/* ******** FOOTER ******** */
+
+
+
